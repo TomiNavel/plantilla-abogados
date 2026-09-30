@@ -1,0 +1,13 @@
+# PROVISIONAL: bloquea el rastreo mientras la web está en pruebas
+#
+# AL PUBLICAR en tudespacho.es, sustituir todo este fichero por:
+#
+#   User-agent: *
+#   Allow: /
+#   Sitemap: https://tudespacho.es/sitemap.xml
+#
+# y quitar la etiqueta <meta name="robots" content="noindex, nofollow">
+# de index.html y de legal.html.
+
+User-agent: *
+Disallow: /
